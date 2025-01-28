@@ -1,3 +1,19 @@
 orthrus.egg-info/
 .vscode
 orthrus/__pycache__
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Core dump files (often named core.<pid>)
+core.*
+
+# Large files or auto-generated scripts (adjust as needed)
+starter_build.sh
+
